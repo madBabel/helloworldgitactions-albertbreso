@@ -11,3 +11,20 @@ jobs:
 
     - name: fail-step
       run: exit 1
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo-hello-world
+      run: echo "Hola, Mundo!!"
+
+    - name: fail-step
+      run: exit 1
+
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo-hello-world
+      run: echo "Hola, Mundo!!"
+
+    - name: fail-step
+      run: exit 1
